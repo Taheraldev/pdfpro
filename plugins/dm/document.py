@@ -137,6 +137,9 @@ pdfReply=InlineKeyboardMarkup(
                 InlineKeyboardButton("🤐 ZIP 🤐", callback_data="zip"),
                 InlineKeyboardButton("🎯 TAR 🎯", callback_data="tar")
             ],[     
+                InlineKeyboardButton("🤐 webp 🤐", callback_data="webp"),
+                InlineKeyboardButton("🎯 repair 🎯", callback_data="tar")
+            ],[     
                 InlineKeyboardButton("🚫 أغلق 🚫", callback_data="closeALL")
             ]
         ]
